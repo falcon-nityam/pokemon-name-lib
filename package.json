@@ -1,0 +1,22 @@
+{
+  "name": "poke-name-generator",
+  "version": "1.0.0",
+  "description": "For all your random pokemon character names",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/falcon-nityam/pokemon-name-lib.git"
+  },
+  "keywords": [
+    "pokemon"
+  ],
+  "author": "Nityam <nityambhangad0213@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/falcon-nityam/pokemon-name-lib/issues"
+  },
+  "homepage": "https://github.com/falcon-nityam/pokemon-name-lib#readme"
+}
