@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/falcon-nityam/pokemon-name-lib/issues"
   },
-  "homepage": "https://github.com/falcon-nityam/pokemon-name-lib#readme"
+  "homepage": "https://github.com/falcon-nityam/pokemon-name-lib#readme",
+  "dependencies": {
+    "unique-random-array": "^2.0.0"
+  }
 }
