@@ -1,5 +1,7 @@
-import uniqueRandomArray from 'unique-random-array'
-import pokemonCharacters from './pokemon-names.json'
+"use strict"
+
+var uniqueRandomArray=require('unique-random-array')
+var pokemonCharacters=require('./pokemon-names.json')
 
 module.exports={
     all: pokemonCharacters,
