@@ -5,8 +5,7 @@
     },
     "extends": [
       "kentcdodds/best-practices",
-      "kentcdodds/possible-errors",
-      "kentcdodds/mocha"
+      "kentcdodds/possible-errors"
     ],
     "rules": {}
   }
