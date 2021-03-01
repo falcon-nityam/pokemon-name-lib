@@ -4,7 +4,9 @@
   "description": "For all your random pokemon character names",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint src",
+    "test": "mocha",
+    "watch:test": "mocha --watch"
   },
   "repository": {
     "type": "git",
@@ -21,5 +23,11 @@
   "homepage": "https://github.com/falcon-nityam/pokemon-name-lib#readme",
   "dependencies": {
     "unique-random-array": "^2.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.0",
+    "eslint": "^7.21.0",
+    "eslint-config-kentcdodds": "^17.3.2",
+    "mocha": "^8.3.0"
   }
 }
