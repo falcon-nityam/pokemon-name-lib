@@ -2,14 +2,14 @@
   "name": "poke-name-generator",
   "version": "1.0.0",
   "description": "For all your random pokemon character names",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "babel --copy-files --out-dir dist --ignore *.test.js src",
     "lint": "eslint src",
     "test": "nyc mocha",
     "watch:test": "mocha --watch",
-    "validate": "npm-run-all --parallel lint test"
+    "validate": "npm-run-all --parallel lint test build"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,9 @@
   },
   "keywords": [
     "pokemon"
+  ],
+  "files":[
+    "dist"
   ],
   "author": "Nityam <nityambhangad0213@gmail.com>",
   "license": "MIT",
